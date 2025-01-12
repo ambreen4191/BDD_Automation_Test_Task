@@ -1,0 +1,162 @@
+{
+  "uid" : "8ed4031210bfd675",
+  "name" : "Validate I can get the resource when calling this API endpoint",
+  "fullName" : "Validate get user API: Validate I can get the resource when calling this API endpoint",
+  "historyId" : "bfed0f1fedb4f663bd80d00f5da457b9",
+  "time" : {
+    "start" : 1736639740141,
+    "stop" : 1736639741015,
+    "duration" : 874
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I have set get single user service endpoint",
+      "time" : {
+        "start" : 1736639740142,
+        "stop" : 1736639740144,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11c912e50acc832",
+        "name" : "Base URI",
+        "source" : "11c912e50acc832.txt",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "1f2cf0495c62c9f0",
+        "name" : "Endpoint",
+        "source" : "1f2cf0495c62c9f0.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When  I send the GET API request",
+      "time" : {
+        "start" : 1736639740144,
+        "stop" : 1736639741000,
+        "duration" : 856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "475e56940b77a9f2",
+        "name" : "Response",
+        "source" : "475e56940b77a9f2.txt",
+        "type" : "text/plain",
+        "size" : 338
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should receive an expected API response status code",
+      "time" : {
+        "start" : 1736639741001,
+        "stop" : 1736639741006,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f8933987b3249e8",
+        "name" : "Status Code",
+        "source" : "8f8933987b3249e8.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "And  receive the expected user details",
+      "time" : {
+        "start" : 1736639741007,
+        "stop" : 1736639741014,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5eee0d81b39c01b",
+        "name" : "User Details",
+        "source" : "5eee0d81b39c01b.txt",
+        "type" : "text/plain",
+        "size" : 338
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Code-3393"
+  }, {
+    "name" : "thread",
+    "value" : "13824@Code-3393.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validate get user API"
+  }, {
+    "name" : "story",
+    "value" : "Validate I can get the resource when calling this API endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "Validate get user API"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate I can get the resource when calling this API endpoint"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/User/Documents/new_workspace/AiqaTechnologiesBDD/src/test/resources/Features/GetResource.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.GetResource_feature.Validate get user API"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ed4031210bfd675.json",
+  "parameterValues" : [ ]
+}

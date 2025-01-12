@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Code-3393",
+    "children" : [ {
+      "name" : "13824@Code-3393.main(1)",
+      "children" : [ {
+        "name" : "Validate I can get the resource when calling this API endpoint",
+        "uid" : "8ed4031210bfd675",
+        "parentUid" : "9e1ebf203f85a2957d6d3116fba1f145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736639740141,
+          "stop" : 1736639741015,
+          "duration" : 874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validate I can create the resource when calling this API endpoint",
+        "uid" : "1641e2bb4f7d8f66",
+        "parentUid" : "9e1ebf203f85a2957d6d3116fba1f145",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736639737061,
+          "stop" : 1736639739997,
+          "duration" : 2936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e1ebf203f85a2957d6d3116fba1f145"
+    } ],
+    "uid" : "b21d0172dfcc140176daa519873f4cbb"
+  } ]
+}

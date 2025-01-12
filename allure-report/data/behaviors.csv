@@ -1,0 +1,3 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Validate create user API","Validate I can create the resource when calling this API endpoint","1","0","0","0","0"
+"","Validate get user API","Validate I can get the resource when calling this API endpoint","0","0","1","0","0"

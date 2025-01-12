@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.Features",
+    "children" : [ {
+      "name" : "CreateResource_feature.Validate create user API",
+      "children" : [ {
+        "name" : "Validate I can create the resource when calling this API endpoint",
+        "uid" : "1641e2bb4f7d8f66",
+        "parentUid" : "e81fe330fcfb3d28982a186d51b826e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736639737061,
+          "stop" : 1736639739997,
+          "duration" : 2936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "CreateResource_feature.Validate create user API"
+    }, {
+      "name" : "GetResource_feature.Validate get user API",
+      "children" : [ {
+        "name" : "Validate I can get the resource when calling this API endpoint",
+        "uid" : "8ed4031210bfd675",
+        "parentUid" : "f02dae564ff8e4ca397d758b261d0922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736639740141,
+          "stop" : 1736639741015,
+          "duration" : 874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "GetResource_feature.Validate get user API"
+    } ],
+    "uid" : "src.test.resources.Features"
+  } ]
+}

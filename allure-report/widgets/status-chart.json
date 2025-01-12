@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1641e2bb4f7d8f66",
+  "name" : "Validate I can create the resource when calling this API endpoint",
+  "time" : {
+    "start" : 1736639737061,
+    "stop" : 1736639739997,
+    "duration" : 2936
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ed4031210bfd675",
+  "name" : "Validate I can get the resource when calling this API endpoint",
+  "time" : {
+    "start" : 1736639740141,
+    "stop" : 1736639741015,
+    "duration" : 874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

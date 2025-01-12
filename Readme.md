@@ -51,20 +51,29 @@
   mvn clean install
 
 
-### How to Generate Automation Test Reports
+### How to Run the Test Cases and Generate Reports
 
-Follow the steps below to generate test reports:
+Follow the steps below to run the test cases and generate the test reports:
 
-1. **Navigate to the Project Folder**  
+1. **Navigate to the TestRunner Class**
+	- Open the project folder in Eclipse. 
+	
+	- Go to the `src/test/java` directory and locate the 'TestRunner.java' file. This class is responsible for running the test cases.
+	
+2. **Run the Test Cases**
+	- Right-click on the TestRunner.java class in Eclipse.
+	- Select Run As > JUnit Test. This will execute all the test cases defined in the class.
+
+3. **Navigate to the Project Folder**  
    Open the folder containing your project, e.g., within the project directory under the `\allure-results`, where the Allure results are stored.
 
-2. **Open Command Prompt**  
+4. **Open Command Prompt**  
    In the folder path area, type `cmd` and press Enter. This will open the Command Prompt.
 
-3. **Run Allure Command**  
+5. **Run Allure Command**  
    In the Command Prompt, type `allure serve` and press Enter. This will start generating the test report.
 
-4. **View the Report**  
+6. **View the Report**  
    Once the command executes, the test report will be displayed in your browser.
 
 ## Notes

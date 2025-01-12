@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Validate create user API",
+    "children" : [ {
+      "name" : "Validate I can create the resource when calling this API endpoint",
+      "children" : [ {
+        "name" : "Validate I can create the resource when calling this API endpoint",
+        "uid" : "1641e2bb4f7d8f66",
+        "parentUid" : "ca3ef5db808f4dd13f203e1c04464627",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736639737061,
+          "stop" : 1736639739997,
+          "duration" : 2936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca3ef5db808f4dd13f203e1c04464627"
+    } ],
+    "uid" : "4facdacc0d2681ddfce942f1d5eb6245"
+  }, {
+    "name" : "Validate get user API",
+    "children" : [ {
+      "name" : "Validate I can get the resource when calling this API endpoint",
+      "children" : [ {
+        "name" : "Validate I can get the resource when calling this API endpoint",
+        "uid" : "8ed4031210bfd675",
+        "parentUid" : "0f98b944ec1a631a111e2224cd55cc17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736639740141,
+          "stop" : 1736639741015,
+          "duration" : 874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f98b944ec1a631a111e2224cd55cc17"
+    } ],
+    "uid" : "1dc2f24c90fa0e33fa68498837b3aecb"
+  } ]
+}
